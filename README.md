@@ -1,9 +1,10 @@
-#Display Parte -1
+# Display Parte -1
 
-##Descripción
+## Descripción
+
 Este repositorio contiene la realización de un proyecto de banderas, mediante la aplicación de la propiedad display.
 
-##Herramientas utilizadas
+## Herramientas utilizadas
 
 1.- HTML5
 
