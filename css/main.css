@@ -1,0 +1,34 @@
+/*  Con un selector universal, se establece el valor de box-sizing a border-box, para obtener en todas las cajas, el ancho exacto que apliquemos al diseño.*/
+
+* {
+    box-sizing: border-box;
+}
+
+/* Con un selector de tipo, se establece el ancho, alto y el margen izquierdo, a todos los elementos div de tipo bloque */
+
+div {
+    width: 1560px;
+    height: 150px;
+    margin-left: 15px;
+}
+/* Por medio de un selector de clase se aplica a los elementos div, cuyo valor de su atributo class es "yellow", un color de fondo.*/
+.yellow {
+    background-color: #e4ac11;   
+}
+
+/* Por medio de un selector de clase se aplica a los elementos div, cuyo valor de su atributo class es "black", un color de fondo.*/
+.black {
+    background-color: black;
+}
+
+/* Mediante el selector de tipo, a todos los elementos con etiqueta <p>, párrafo, se aplican el margen a 15px, para establecer la distancia que estará de otros elementos; y el relleno superior (padding-top)*/
+p {
+    margin: 15px;
+    padding-top: 20px;
+}
+
+/*Por medio de un selector aninado, se aplica el color blanco, solo a los elementos con etiqueta <p>, que están dentro de cualquier otro elemento con valor de clase "black" */
+
+.black p {
+    color: white;
+}
